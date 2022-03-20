@@ -1,0 +1,46 @@
+.header{
+    height: 9vh;
+    width: 100vw;
+    background-color: rgb(25,97,160);
+    color: white;
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-family: 'Roboto Serif';
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#login{
+    position: relative;
+    left: 75vw;
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: 'Roboto Serif';
+    border-radius: 5px;
+    background-color:  rgb(25,97,160);
+    color: white;
+    border: 2px outset black;
+    cursor: pointer;
+}
+
+
+#login svg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 5px;
+    top:3px;
+}
+
+#login:hover{
+    padding-left: 15px;    
+    padding-right: 15px;
+    transition: 1s;
+}
