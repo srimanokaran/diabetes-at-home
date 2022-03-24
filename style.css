@@ -54,7 +54,7 @@ button{
     top:3px;
 }
 
-#login:hover{
+button:hover{
     padding-left: 15px;    
     padding-right: 15px;
     transition: 1s;
@@ -167,7 +167,7 @@ h1{
 .text-box-about-diabetes{
     margin-top: 800px;
     width: 80vw;
-    height: 190vh;
+    height: 193vh;
     color: black;
     text-align: justify;
     border-radius: 10px;
