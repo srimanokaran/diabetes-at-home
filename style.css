@@ -40,7 +40,7 @@ button{
 
 #login{
     position: relative;
-    left: 7vw;
+    left: 10vw;
     padding: 10px;
 }
 
@@ -78,6 +78,7 @@ button:hover{
 
 
 
+
 .text-box{
     margin-top: 140px;
     width: 80vw;
@@ -93,6 +94,7 @@ button:hover{
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
     font-size: large;
 }
+
 
 
 .text-box p{
@@ -171,9 +173,9 @@ h1{
 
 }
 .text-box-about-diabetes{
-    margin-top: 800px;
-    width: 80vw;
-    height: 193vh;
+    margin-top: 130px;
+    width: 85vw;
+    height: auto;
     color: black;
     text-align: justify;
     border-radius: 10px;
