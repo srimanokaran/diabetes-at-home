@@ -1,12 +1,26 @@
 .header{
     height: auto;
     width: 100vw;
-    background:  rgba(25, 97, 160, 0.8);
+    background:  rgba(25, 97, 160, 1);
     color: white;
     text-align: left;
-    padding: 15px;
+    padding: 10px;
     font-family: 'Didact Gothic';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
 }
+
+.header h2{
+    width: 20vw;
+}
+
+#title{
+    text-align: center;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -26,14 +40,13 @@ button{
 
 #login{
     position: relative;
-    left: 75vw;
+    left: 7vw;
     padding: 10px;
 }
 
 .hamburger-icon{
     position: relative;
-    margin-right: 55px;
-    float: right;
+    margin-right: 0px;
     color: white;
 }
 
@@ -63,8 +76,10 @@ button:hover{
     align-items: center;
 }
 
+
+
 .text-box{
-    margin-top: 50px;
+    margin-top: 140px;
     width: 80vw;
     height: auto;
     color: black;
@@ -78,6 +93,8 @@ button:hover{
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
     font-size: large;
 }
+
+
 .text-box p{
     padding-left: 8px;
     padding-right: 8px;
@@ -108,6 +125,7 @@ h1{
     flex-basis: 200px;
     justify-content: flex-start;
     display: flex;
+    margin-bottom: 20px;
 }
 
 .flex-item img {
@@ -126,11 +144,9 @@ h1{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 35%;   
 }
 
 .login-today p{
-    /* margin-top: 15px; */
     text-align: center;
 }
 
@@ -144,6 +160,16 @@ h1{
     margin-bottom: 10px;
 }
 
+.login-today img{
+    margin-top: 15px;
+    height: 40%;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow:  0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(255,255,255),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
 .text-box-about-diabetes{
     margin-top: 800px;
     width: 80vw;
